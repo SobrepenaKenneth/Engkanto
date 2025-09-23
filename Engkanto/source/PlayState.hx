@@ -1,19 +1,18 @@
 package;
 
-import Intro;
 import flixel.FlxState;
 import haxe.iterators.StringIteratorUnicode;
 
 class PlayState extends FlxState
 {
-	var intro:Intro;
-
 	override public function create()
 	{
 		super.create();
-		intro = new Intro();
+		// intro = new Intro();
+		// add(intro.butterfly);
 
-		add(intro.butterfly);
+		var butterfly = new Butterfly(100, 100);
+		add(butterfly);
 
 	}
 

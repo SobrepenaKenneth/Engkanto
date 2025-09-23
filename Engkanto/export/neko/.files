@@ -1,7 +1,9 @@
 export/neko/bin/assets/data/data-goes-here.txt
-export/neko/bin/assets/images/butterfly.png
-export/neko/bin/assets/images/butterfly.xml
+export/neko/bin/assets/images/fly.png
+export/neko/bin/assets/images/fly.xml
 export/neko/bin/assets/images/images-go-here.txt
+export/neko/bin/assets/images/sprites.png
+export/neko/bin/assets/images/sprites.xml
 export/neko/bin/assets/music/music-goes-here.txt
 export/neko/bin/assets/sounds/sounds-go-here.txt
 export/neko/bin/flixel/sounds/beep.ogg
