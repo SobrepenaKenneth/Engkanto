@@ -1,4 +1,7 @@
 export/neko/bin/assets/data/data-goes-here.txt
+export/neko/bin/assets/data/Template.xml
+export/neko/bin/assets/images/Despair.png
+export/neko/bin/assets/images/Despair.xml
 export/neko/bin/assets/images/fly.png
 export/neko/bin/assets/images/fly.xml
 export/neko/bin/assets/images/images-go-here.txt

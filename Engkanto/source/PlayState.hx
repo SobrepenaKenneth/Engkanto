@@ -11,7 +11,7 @@ class PlayState extends FlxState
 		// intro = new Intro();
 		// add(intro.butterfly);
 
-		var butterfly = new Butterfly(100, 100);
+		var butterfly = new Butterfly(500, 100);
 		add(butterfly);
 
 	}

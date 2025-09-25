@@ -10,11 +10,11 @@ class Butterfly extends FlxSprite
         super(x,y);
 
         frames = FlxAtlasFrames.fromSparrow(
-            "assets/images/sprites.png",
-            "assets/images/sprites.xml"
+		"assets/images/Despair.png", "assets/images/Despair.xml"
         );
 
-        animation.addByPrefix("butterfly", "butterfly", 30, true);
+		// (name, name of sprite frame, frames per second, loop)
+		animation.addByPrefix("butterfly", "Despair", 30, true);
         animation.play("butterfly");
         
     }
