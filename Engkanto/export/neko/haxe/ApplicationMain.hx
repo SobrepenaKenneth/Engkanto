@@ -20,7 +20,11 @@ class ApplicationMain
 
 		#if (js && html5)
 		#if (munit || (utest && openfl_enable_utest_legacy_mode))
+<<<<<<< Updated upstream
 		lime.system.System.embed("Engkanto", null, 1280, 720);
+=======
+		lime.system.System.embed("Engkanto", null, 640, 480);
+>>>>>>> Stashed changes
 		#end
 		#else
 		create(null);
@@ -54,14 +58,22 @@ class ApplicationMain
 			element: null,
 			frameRate: 60,
 			#if !web fullscreen: false, #end
+<<<<<<< Updated upstream
 			height: 720,
+=======
+			height: 480,
+>>>>>>> Stashed changes
 			hidden: #if munit true #else false #end,
 			maximized: false,
 			minimized: false,
 			parameters: {},
 			resizable: true,
 			title: "Engkanto",
+<<<<<<< Updated upstream
 			width: 1280,
+=======
+			width: 640,
+>>>>>>> Stashed changes
 			x: null,
 			y: null,
 		};

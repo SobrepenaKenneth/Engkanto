@@ -20,7 +20,11 @@ class ApplicationMain
 
 		#if (js && html5)
 		#if (munit || (utest && openfl_enable_utest_legacy_mode))
+<<<<<<< Updated upstream
 		lime.system.System.embed("Engkanto", null, 640, 480);
+=======
+		lime.system.System.embed("Engkanto", null, 1280, 720);
+>>>>>>> Stashed changes
 		#end
 		#else
 		create(null);
@@ -35,7 +39,11 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
+<<<<<<< Updated upstream
 		app.meta["build"] = "7";
+=======
+		app.meta["build"] = "9";
+>>>>>>> Stashed changes
 		app.meta["company"] = "HaxeFlixel";
 		app.meta["file"] = "Engkanto";
 		app.meta["name"] = "Engkanto";
@@ -54,14 +62,22 @@ class ApplicationMain
 			element: null,
 			frameRate: 60,
 			#if !web fullscreen: false, #end
+<<<<<<< Updated upstream
 			height: 480,
+=======
+			height: 720,
+>>>>>>> Stashed changes
 			hidden: #if munit true #else false #end,
 			maximized: false,
 			minimized: false,
 			parameters: {},
 			resizable: true,
 			title: "Engkanto",
+<<<<<<< Updated upstream
 			width: 640,
+=======
+			width: 1280,
+>>>>>>> Stashed changes
 			x: null,
 			y: null,
 		};
