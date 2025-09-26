@@ -2,31 +2,35 @@ package com.TeamHiraya.Engkanto;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
 
 /** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
 public class Main extends ApplicationAdapter {
     private SpriteBatch batch;
     private Texture image;
+    private _GameLogo logo;
 
     @Override
     public void create() {
         batch = new SpriteBatch();
-        image = new Texture("libgdx.png");
+        // Create an object of _GameLogo
+        logo = new _GameLogo("Engkanto_Logo.png", 350, 450, 600, 250);
     }
 
     @Override
     public void render() {
-        ScreenUtils.clear(0.15f, 0.15f, 0.2f, 1f);
+    	// This is the background color
+        Gdx.gl.glClearColor(0, 0, 0, 1);
+        
+        // This draws the logo
         batch.begin();
-        batch.draw(image, 140, 210);
+        logo.draw(batch);
         batch.end();
     }
 
     @Override
+    // This method is just a trash can
     public void dispose() {
         batch.dispose();
         image.dispose();
