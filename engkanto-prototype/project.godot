@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="Engkanto-Prototype"
-run/main_scene="uid://7dk1pwqqsite"
+run/main_scene="uid://sjqy8t7j7376"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"

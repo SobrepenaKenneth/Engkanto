@@ -1,13 +1,11 @@
-[gd_scene load_steps=1 format=3 uid="uid://hh71rnzdoe2g"]
+[gd_scene load_steps=4 format=3 uid="uid://hh71rn0doe2g"]
 
-
-[ext_resource type="Texture2D" uid="uid://tfte1w488gf1" path="textures/instance23.png" id="1_pqwuw"]
-
-
+[ext_resource type="Texture2D" uid="uid://cmrqommvil5y6" path="res://Asset/characters/Grandma/textures/instance23.png" id="1_pqwuw"]
 
 [sub_resource type="Animation" id="Animation_5wb9p"]
 resource_name = "idle"
-length = 0.8333333333333334
+length = 0.8333333
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -15,10 +13,10 @@ tracks/0/path = NodePath("instance22:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = false
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.04385964912280702, 0.13157894736842107, 0.1754385964912281, 0.2192982456140351, 0.30701754385964913, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.04385965, 0.13157895, 0.1754386, 0.21929824, 0.30701753, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(148,148), Vector2(148,149), Vector2(148,149), Vector2(148,150), Vector2(148,150), Vector2(148,150), Vector2(148,151), Vector2(148,151), Vector2(0,0)]
+"values": [Vector2(148, 148), Vector2(148, 149), Vector2(148, 149), Vector2(148, 150), Vector2(148, 150), Vector2(148, 150), Vector2(148, 151), Vector2(148, 151), Vector2(0, 0)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -27,10 +25,10 @@ tracks/1/path = NodePath("instance22:scale")
 tracks/1/interp = 1
 tracks/1/loop_wrap = false
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(1.27,1.27), Vector2(1.29,1.24), Vector2(1.29,1.24), Vector2(0,0)]
+"values": [Vector2(1.27, 1.27), Vector2(1.29, 1.24), Vector2(1.29, 1.24), Vector2(0, 0)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -39,7 +37,7 @@ tracks/2/path = NodePath("instance22:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = false
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.0, 0.0, 0.0]
@@ -51,7 +49,7 @@ tracks/3/path = NodePath("instance22:visible")
 tracks/3/interp = 1
 tracks/3/loop_wrap = false
 tracks/3/keys = {
-"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
 "values": [true, true, false, false]
@@ -63,7 +61,7 @@ tracks/4/path = NodePath("instance22:z_index")
 tracks/4/interp = 1
 tracks/4/loop_wrap = false
 tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [0.0, 0.0, 0.0, 0.0]
@@ -75,10 +73,10 @@ tracks/5/path = NodePath("Grandma:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = false
 tracks/5/keys = {
-"times": PackedFloat32Array(0, 0.30701754385964913, 0.3508771929824562, 0.3947368421052632, 0.48245614035087725, 0.5263157894736843, 0.5701754385964913, 0.6140350877192983, 0.7894736842105264, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.30701753, 0.3508772, 0.39473686, 0.48245615, 0.5263158, 0.5701754, 0.61403507, 0.7894737, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
 "update": 0,
-"values": [Vector2(0,0), Vector2(0,0), Vector2(0,0), Vector2(148,151), Vector2(148,150), Vector2(148,150), Vector2(148,150), Vector2(148,150), Vector2(148,149), Vector2(148,148)]
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(148, 151), Vector2(148, 150), Vector2(148, 150), Vector2(148, 150), Vector2(148, 150), Vector2(148, 149), Vector2(148, 148)]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
@@ -87,10 +85,10 @@ tracks/6/path = NodePath("Grandma:scale")
 tracks/6/interp = 1
 tracks/6/loop_wrap = false
 tracks/6/keys = {
-"times": PackedFloat32Array(0, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(0,0), Vector2(1.29,1.23), Vector2(1.27,1.27)]
+"values": [Vector2(0, 0), Vector2(1.29, 1.23), Vector2(1.27, 1.27)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
@@ -99,7 +97,7 @@ tracks/7/path = NodePath("Grandma:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = false
 tracks/7/keys = {
-"times": PackedFloat32Array(0, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [0.0, 0.0, 0.0]
@@ -111,7 +109,7 @@ tracks/8/path = NodePath("Grandma:visible")
 tracks/8/interp = 1
 tracks/8/loop_wrap = false
 tracks/8/keys = {
-"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
 "values": [false, false, true, true]
@@ -123,12 +121,11 @@ tracks/9/path = NodePath("Grandma:z_index")
 tracks/9/interp = 1
 tracks/9/loop_wrap = false
 tracks/9/keys = {
-"times": PackedFloat32Array(0, 0.3947368421052632, 0.8333333333333334),
+"times": PackedFloat32Array(0, 0.39473686, 0.8333333),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
 "values": [0.0, 0.0, 0.0]
 }
-
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_9che5"]
 _data = {
@@ -138,27 +135,18 @@ _data = {
 [node name="Grandma" type="Node2D"]
 
 [node name="instance22" type="Node2D" parent="."]
-position = Vector2(149,149)
-rotation = 0
-scale = Vector2(1.27,1.27)
+position = Vector2(148, 148)
+scale = Vector2(1.27, 1.27)
+
 [node name="instance23" type="Sprite2D" parent="instance22"]
-position = Vector2(0,0)
-rotation = 0
-scale = Vector2(1,1)
-flip_h = false
 texture = ExtResource("1_pqwuw")
 
 [node name="Grandma" type="Node2D" parent="."]
-position = Vector2(149,151)
-rotation = 0
-scale = Vector2(1.29,1.23)
-[node name="instance25" type="Sprite2D" parent="Grandma"]
-position = Vector2(0,0)
-rotation = 0
-scale = Vector2(1,1)
-flip_h = false
-texture = ExtResource("1_pqwuw")
+visible = false
+scale = Vector2(1e-05, 1e-05)
 
+[node name="instance25" type="Sprite2D" parent="Grandma"]
+texture = ExtResource("1_pqwuw")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
