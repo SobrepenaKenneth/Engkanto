@@ -3,21 +3,23 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dr2f3c2xa582t"
-path="res://.godot/imported/instance36.png-f811a98d90f89b82f605affc8aa253c9.ctex"
+path="res://.godot/imported/instance36.png-e93f9d39408bf7f64fad6b0bb05a5a87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://eyeSworder/textures/instance36.png"
-dest_files=["res://.godot/imported/instance36.png-f811a98d90f89b82f605affc8aa253c9.ctex"]
+source_file="res://Flash/FlashToGodotExport-main/FlashToGodotExport-main/examples/godotExportedSwf/eyeSworder/textures/instance36.png"
+dest_files=["res://.godot/imported/instance36.png-e93f9d39408bf7f64fad6b0bb05a5a87.ctex"]
 
 [params]
 
 compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
+compress/uastc_level=0
+compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
@@ -25,6 +27,10 @@ mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
+process/channel_remap/red=0
+process/channel_remap/green=1
+process/channel_remap/blue=2
+process/channel_remap/alpha=3
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

@@ -1,3 +1,12 @@
-[gd_scene format=3 uid="uid://sjqy8t7j7376"]
+[gd_scene load_steps=3 format=3 uid="uid://sjqy8t7j7376"]
+
+[ext_resource type="PackedScene" uid="uid://hh71rn0doe2g" path="res://Asset/characters/Grandma/Grandma.tscn" id="1_cohmw"]
+[ext_resource type="PackedScene" uid="uid://ro4c5khl5g6x" path="res://Asset/characters/Raya_D_Idle/Raya_D_Idle.tscn" id="2_tlhgw"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Grandma" parent="." instance=ExtResource("1_cohmw")]
+position = Vector2(733, 233)
+
+[node name="Raya_D_Idle" parent="." instance=ExtResource("2_tlhgw")]
+position = Vector2(71, 220)

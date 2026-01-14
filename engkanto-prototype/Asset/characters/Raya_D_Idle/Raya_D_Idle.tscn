@@ -1,0 +1,110 @@
+[gd_scene load_steps=1 format=3 uid="uid://ofhs3h1uvdec"]
+
+
+[ext_resource type="Texture2D" uid="uid://aw3ezd390m38" path="textures/instance22.png" id="1_4nbvd"]
+
+
+
+[sub_resource type="Animation" id="Animation_bokwc"]
+resource_name = "Idle"
+length = 0.8333333333333334
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Raya:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04385964912280702, 0.08771929824561404, 0.30701754385964913, 0.3508771929824562, 0.3947368421052632, 0.4385964912280702, 0.5701754385964913, 0.6140350877192983, 0.7894736842105264, 0.8333333333333334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(145,157), Vector2(145,158), Vector2(145,159), Vector2(145,163), Vector2(145,164), Vector2(145,165), Vector2(145,164), Vector2(145,162), Vector2(145,161), Vector2(145,158), Vector2(145,157)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Raya:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3508771929824562, 0.3947368421052632, 0.7894736842105264, 0.8333333333333334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1.98,1.98), Vector2(2.07,1.86), Vector2(2.08,1.85), Vector2(1.99,1.97), Vector2(1.98,1.98)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Raya:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = false
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.8333333333333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Raya:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = false
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.8333333333333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Raya:z_index")
+tracks/4/interp = 1
+tracks/4/loop_wrap = false
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.8333333333333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../..")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"Raya"
+}]
+}
+
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_77ufs"]
+_data = {
+&"Idle": SubResource("Animation_bokwc")
+}
+
+[node name="Raya_D_Idle" type="Node2D"]
+
+[node name="Raya" type="Node2D" parent="."]
+position = Vector2(146,158)
+rotation = 0
+scale = Vector2(1.98,1.98)
+[node name="instance22" type="Sprite2D" parent="Raya"]
+position = Vector2(0,0)
+rotation = 0
+scale = Vector2(1,1)
+flip_h = false
+texture = ExtResource("1_4nbvd")
+
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_77ufs")
+}
+autoplay = "Idle"

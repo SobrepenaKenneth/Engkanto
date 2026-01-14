@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca2bkvkarv155"
-path="res://.godot/imported/instance12.png-202160693042784f706a4a3e65c802ba.ctex"
+uid="uid://bl3mhw5hicgk6"
+path="res://.godot/imported/instance22.png-168b849d532cdda312cc1ba0f5bab6a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Flash/FlashToGodotExport-main/FlashToGodotExport-main/examples/godotExportedSwf/eyeSworder/textures/instance12.png"
-dest_files=["res://.godot/imported/instance12.png-202160693042784f706a4a3e65c802ba.ctex"]
+source_file="res://Asset/characters/Raya_D_Idle/textures/instance22.png"
+dest_files=["res://.godot/imported/instance22.png-168b849d532cdda312cc1ba0f5bab6a2.ctex"]
 
 [params]
 
