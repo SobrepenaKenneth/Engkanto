@@ -1,21 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://sjqy8t7j7376"]
+[gd_scene load_steps=2 format=3 uid="uid://sjqy8t7j7376"]
 
-[ext_resource type="PackedScene" uid="uid://hh71rn0doe2g" path="res://Asset/characters/Grandma/Grandma.tscn" id="1_cohmw"]
-[ext_resource type="Script" uid="uid://bkbt4v21qwk1e" path="res://Asset/scenes/Main.cs" id="1_ynjun"]
-[ext_resource type="PackedScene" uid="uid://ro4c5khl5g6x" path="res://Asset/characters/Raya_D_Idle/Raya_D_Idle.tscn" id="2_tlhgw"]
-[ext_resource type="Texture2D" uid="uid://07fdbp7osyf0" path="res://icon.svg" id="3_rd43y"]
-[ext_resource type="Script" uid="uid://flldy1lqrt0p" path="res://Asset/characters/Raya.cs" id="4_rd43y"]
+[ext_resource type="PackedScene" uid="uid://bauag0563pmmv" path="res://Asset/ui/MainMenu/MainMenu.tscn" id="1_dxv4o"]
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_ynjun")
 
-[node name="Grandma" parent="." instance=ExtResource("1_cohmw")]
-position = Vector2(733, 233)
-
-[node name="Raya_D_Idle" parent="." instance=ExtResource("2_tlhgw")]
-position = Vector2(71, 220)
-
-[node name="Raya" type="Sprite2D" parent="."]
-position = Vector2(512, 198)
-texture = ExtResource("3_rd43y")
-script = ExtResource("4_rd43y")
+[node name="MainMenu" parent="." instance=ExtResource("1_dxv4o")]
