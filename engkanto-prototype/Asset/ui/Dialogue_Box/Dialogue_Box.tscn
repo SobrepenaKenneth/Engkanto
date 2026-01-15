@@ -1,27 +1,28 @@
-[gd_scene load_steps=5 format=3 uid="uid://bauag0563pmmv"]
+[gd_scene load_steps=5 format=3 uid="uid://wb7h5ck0l10w"]
 
-[ext_resource type="Texture2D" uid="uid://bmqm4fpiiuhtg" path="res://Asset/ui/MainMenu/textures/instance22.png" id="1_i2oer"]
-[ext_resource type="Texture2D" uid="uid://dhw35bpgqpgph" path="res://Asset/ui/MainMenu/textures/instance23.png" id="2_w9v1o"]
+[ext_resource type="Texture2D" uid="uid://djd8eet2ccqpr" path="res://Asset/ui/Dialogue_Box/textures/instance22.png" id="1_nqakb"]
+[ext_resource type="Texture2D" uid="uid://dbfb5ay8t6hjr" path="res://Asset/ui/Dialogue_Box/textures/instance23.png" id="2_rpz9c"]
 
-[sub_resource type="Animation" id="Animation_pjb9s"]
+[sub_resource type="Animation" id="Animation_0pomj"]
 resource_name = "Scene 1"
 length = 0.8333333
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Background:position")
+tracks/0/path = NodePath("Dialogue_Box:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = false
 tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.8333333),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(312, 182), Vector2(312, 182)]
+"values": [Vector2(320, 165), Vector2(320, 165)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Background:scale")
+tracks/1/path = NodePath("Dialogue_Box:scale")
 tracks/1/interp = 1
 tracks/1/loop_wrap = false
 tracks/1/keys = {
@@ -33,7 +34,7 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Background:rotation")
+tracks/2/path = NodePath("Dialogue_Box:rotation")
 tracks/2/interp = 1
 tracks/2/loop_wrap = false
 tracks/2/keys = {
@@ -45,7 +46,7 @@ tracks/2/keys = {
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Background:visible")
+tracks/3/path = NodePath("Dialogue_Box:visible")
 tracks/3/interp = 1
 tracks/3/loop_wrap = false
 tracks/3/keys = {
@@ -57,7 +58,7 @@ tracks/3/keys = {
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Background:z_index")
+tracks/4/path = NodePath("Dialogue_Box:z_index")
 tracks/4/interp = 1
 tracks/4/loop_wrap = false
 tracks/4/keys = {
@@ -69,31 +70,31 @@ tracks/4/keys = {
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Engkanto_Logo:position")
+tracks/5/path = NodePath("Arrow:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = false
 tracks/5/keys = {
-"times": PackedFloat32Array(0, 0.39473686, 0.4385965, 0.5263158, 0.5701754, 0.65789473, 0.7017544, 0.74561405, 0.7894737, 0.8333333),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.3508772, 0.8333333),
+"transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128), Vector2(97, 128)]
+"values": [Vector2(556, 190), Vector2(556, 185), Vector2(556, 190)]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Engkanto_Logo:scale")
+tracks/6/path = NodePath("Arrow:scale")
 tracks/6/interp = 1
 tracks/6/loop_wrap = false
 tracks/6/keys = {
-"times": PackedFloat32Array(0, 0.3508772, 0.39473686, 0.7894737, 0.8333333),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 0.8333333),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(1, 1), Vector2(0.95, 1.06), Vector2(0.94, 1.07), Vector2(0.99, 1.01), Vector2(1, 1)]
+"values": [Vector2(1, 1), Vector2(1, 1)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Engkanto_Logo:rotation")
+tracks/7/path = NodePath("Arrow:rotation")
 tracks/7/interp = 1
 tracks/7/loop_wrap = false
 tracks/7/keys = {
@@ -105,7 +106,7 @@ tracks/7/keys = {
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Engkanto_Logo:visible")
+tracks/8/path = NodePath("Arrow:visible")
 tracks/8/interp = 1
 tracks/8/loop_wrap = false
 tracks/8/keys = {
@@ -117,7 +118,7 @@ tracks/8/keys = {
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Engkanto_Logo:z_index")
+tracks/9/path = NodePath("Arrow:z_index")
 tracks/9/interp = 1
 tracks/9/loop_wrap = false
 tracks/9/keys = {
@@ -127,29 +128,28 @@ tracks/9/keys = {
 "values": [1, 1]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_rs2fw"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8vpbl"]
 _data = {
-&"Scene 1": SubResource("Animation_pjb9s")
+&"Scene 1": SubResource("Animation_0pomj")
 }
 
-[node name="MainMenu" type="Node2D"]
+[node name="Dialogue_Box" type="Node2D"]
 
-[node name="Background" type="Node2D" parent="."]
-position = Vector2(312, 182)
+[node name="Dialogue_Box" type="Node2D" parent="."]
+position = Vector2(320, 165)
 
-[node name="instance22" type="Sprite2D" parent="Background"]
-texture = ExtResource("1_i2oer")
+[node name="instance22" type="Sprite2D" parent="Dialogue_Box"]
+texture = ExtResource("1_nqakb")
 
-[node name="Engkanto_Logo" type="Node2D" parent="."]
+[node name="Arrow" type="Node2D" parent="."]
 z_index = 1
-position = Vector2(97, 128)
+position = Vector2(556, 190)
 
-[node name="instance23" type="Sprite2D" parent="Engkanto_Logo"]
-scale = Vector2(0.04798889, 0.04798889)
-texture = ExtResource("2_w9v1o")
+[node name="instance23" type="Sprite2D" parent="Arrow"]
+texture = ExtResource("2_rpz9c")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-&"": SubResource("AnimationLibrary_rs2fw")
+&"": SubResource("AnimationLibrary_8vpbl")
 }
 autoplay = "Scene 1"

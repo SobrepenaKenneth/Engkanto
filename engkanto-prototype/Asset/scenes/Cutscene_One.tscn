@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://b7v0saw2r5uy"]
+
+[ext_resource type="PackedScene" uid="uid://873xuy8dbgw2" path="res://Asset/ui/Background_Cutscene/Background_Cutscene.tscn" id="1_gi1v1"]
+[ext_resource type="PackedScene" uid="uid://hh71rn0doe2g" path="res://Asset/characters/Grandma/Grandma.tscn" id="1_nul27"]
+[ext_resource type="PackedScene" uid="uid://ro4c5khl5g6x" path="res://Asset/characters/Raya_D_Idle/Raya_D_Idle.tscn" id="2_xtn4w"]
+[ext_resource type="PackedScene" uid="uid://wb7h5ck0l10w" path="res://Asset/ui/Dialogue_Box/Dialogue_Box.tscn" id="4_6ed8q"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background_Cutscene" parent="." instance=ExtResource("1_gi1v1")]
+position = Vector2(-6, 55)
+scale = Vector2(2, 2)
+
+[node name="Grandma" parent="." instance=ExtResource("1_nul27")]
+position = Vector2(666.00006, 202)
+scale = Vector2(1.255, 1.255)
+
+[node name="Raya_D_Idle" parent="." instance=ExtResource("2_xtn4w")]
+position = Vector2(231, 261.00003)
+scale = Vector2(0.925, 0.925)
+
+[node name="Dialogue_Box" parent="." instance=ExtResource("4_6ed8q")]
+position = Vector2(-15, 230)
+scale = Vector2(2, 2)
