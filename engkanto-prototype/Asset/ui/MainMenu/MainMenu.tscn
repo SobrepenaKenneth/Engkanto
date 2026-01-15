@@ -6,6 +6,7 @@
 [sub_resource type="Animation" id="Animation_pjb9s"]
 resource_name = "Scene 1"
 length = 0.8333333
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
