@@ -1,17 +1,19 @@
 [gd_scene load_steps=4 format=3 uid="uid://dn6gsfce65mvo"]
 
-[ext_resource type="Script" uid="uid://bydcpfva7rlld" path="res://Asset/characters/raya.gd" id="1_y5xr6"]
+[ext_resource type="Script" uid="uid://b3jchy7xasqda" path="res://Asset/characters/Raya.cs" id="1_y5xr6"]
 [ext_resource type="Texture2D" uid="uid://07fdbp7osyf0" path="res://icon.svg" id="1_ybyah"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y5xr6"]
-size = Vector2(128, 129)
+size = Vector2(99, 220)
 
 [node name="Raya" type="CharacterBody2D"]
 script = ExtResource("1_y5xr6")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -47)
+scale = Vector2(1, 1.734375)
 texture = ExtResource("1_ybyah")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 0.5)
+position = Vector2(-0.5, -46)
 shape = SubResource("RectangleShape2D_y5xr6")

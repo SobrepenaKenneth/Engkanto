@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfhxuwhwwq0da"]
+
+[ext_resource type="PackedScene" uid="uid://dn6gsfce65mvo" path="res://Asset/characters/Raya.tscn" id="1_oq6hm"]
+[ext_resource type="Texture2D" uid="uid://07fdbp7osyf0" path="res://icon.svg" id="2_icy4a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a3pfb"]
+size = Vector2(1420.5, 132)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Raya" parent="." instance=ExtResource("1_oq6hm")]
+position = Vector2(360, 335)
+
+[node name="Floor" type="StaticBody2D" parent="."]
+position = Vector2(2, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor"]
+position = Vector2(631, 626)
+scale = Vector2(11.078125, 1)
+texture = ExtResource("2_icy4a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(636.75, 627)
+shape = SubResource("RectangleShape2D_a3pfb")
