@@ -13,6 +13,7 @@ position = Vector2(360, 335)
 
 [node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(2, 0)
+metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Floor"]
 position = Vector2(631, 626)
@@ -20,5 +21,19 @@ scale = Vector2(11.078125, 1)
 texture = ExtResource("2_icy4a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
+position = Vector2(636.75, 627)
+shape = SubResource("RectangleShape2D_a3pfb")
+
+[node name="Floor2" type="StaticBody2D" parent="."]
+position = Vector2(848, 74)
+scale = Vector2(1, 0.47999984)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Floor2"]
+position = Vector2(631, 626)
+scale = Vector2(11.078125, 1)
+texture = ExtResource("2_icy4a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2"]
 position = Vector2(636.75, 627)
 shape = SubResource("RectangleShape2D_a3pfb")

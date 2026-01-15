@@ -6,7 +6,7 @@ public partial class Raya : CharacterBody2D
 	public string name = "Raya";
 	public float speed = 300;
 	public float gravity = 1200;
-	public float jump_Force = -600;
+	public float jump_Force = -800;
 
 	public override void _Ready()
 	{
