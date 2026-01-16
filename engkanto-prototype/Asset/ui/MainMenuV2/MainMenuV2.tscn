@@ -1,0 +1,308 @@
+[gd_scene load_steps=4 format=3 uid="uid://p2r5nn8cqlq7"]
+
+[ext_resource type="Texture2D" uid="uid://dpw4qw050turk" path="res://Asset/ui/MainMenuV2/textures/texture_atlas_0.png" id="atlas_texture_0"]
+
+[sub_resource type="Animation" id="Animation_3cl9b"]
+resource_name = "Scene 1"
+length = 1.5833334
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("instance22:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(24, 450), Vector2(24, 450)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("instance22:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("instance22:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = false
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("instance22:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = false
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("instance22:z_index")
+tracks/4/interp = 1
+tracks/4/loop_wrap = false
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Background:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = false
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(462, 335), Vector2(462, 335)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Background:scale")
+tracks/6/interp = 1
+tracks/6/loop_wrap = false
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Background:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = false
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Background:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = false
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Background:z_index")
+tracks/9/interp = 1
+tracks/9/loop_wrap = false
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1, 1]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Bakunawa:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = false
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.042792793, 0.08558559, 0.12837838, 0.17117117, 0.25675675, 0.29954955, 0.6418919, 0.6846847, 0.7274775, 0.7702703, 0.8130631, 0.8558559, 0.8986486, 0.9414414, 0.9842342, 1.240991, 1.2837838, 1.3693694, 1.4121622, 1.4977478, 1.5405406, 1.5833334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(670, 331), Vector2(669, 331), Vector2(668, 331), Vector2(668, 331), Vector2(668, 331), Vector2(666, 331), Vector2(665, 331), Vector2(662, 331), Vector2(661, 331), Vector2(661, 331), Vector2(660, 331), Vector2(660, 331), Vector2(661, 331), Vector2(662, 331), Vector2(662, 331), Vector2(662, 331), Vector2(665, 331), Vector2(666, 331), Vector2(667, 331), Vector2(667, 331), Vector2(668, 331), Vector2(669, 331), Vector2(670, 331)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Bakunawa:scale")
+tracks/11/interp = 1
+tracks/11/loop_wrap = false
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1.31, 1.31), Vector2(1.31, 1.31)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Bakunawa:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = false
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.042792793, 0.08558559, 0.25675675, 0.29954955, 0.42792794, 0.4707207, 0.6418919, 0.6846847, 0.7702703, 0.8130631, 0.9842342, 1.027027, 1.4121622, 1.454955, 1.5833334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.04018077335827996, 0.03575567160118398, 0.03527741866704881, 0.02674467935252078, 0.02625515534068556, 0.01821328292730362, 0.01773582744907598, 0.0092054824830825, 0.00544163169566047, 0.00471925462445366, 0.00491722907009162, 0.01334233039366061, 0.01379656784062888, 0.0311037192436796, 0.03158194145755244, 0.04018077335827996]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Bakunawa:visible")
+tracks/13/interp = 1
+tracks/13/loop_wrap = false
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Bakunawa:z_index")
+tracks/14/interp = 1
+tracks/14/loop_wrap = false
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [2, 2]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Logo:position")
+tracks/15/interp = 1
+tracks/15/loop_wrap = false
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.08558559, 0.12837838, 0.29954955, 0.34234235, 0.4707207, 0.5135135, 0.5563063, 0.8558559, 0.8986486, 1.1981982, 1.240991, 1.4977478, 1.5405406, 1.5833334),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131), Vector2(253, 131)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Logo:scale")
+tracks/16/interp = 1
+tracks/16/loop_wrap = false
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.72, 0.72), Vector2(0.72, 0.72)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Logo:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = false
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("Logo:visible")
+tracks/18/interp = 1
+tracks/18/loop_wrap = false
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, true]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("Logo:z_index")
+tracks/19/interp = 1
+tracks/19/loop_wrap = false
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 1.5833334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [3, 3]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_f36qu"]
+_data = {
+&"Scene 1": SubResource("Animation_3cl9b")
+}
+
+[node name="MainMenuV2" type="Node2D"]
+
+[node name="instance22" type="Sprite2D" parent="."]
+position = Vector2(24, 450)
+texture = ExtResource("atlas_texture_0")
+region_enabled = true
+region_rect = Rect2(1631, 669, 28, 98)
+
+[node name="Background" type="Node2D" parent="."]
+z_index = 1
+position = Vector2(462, 335)
+
+[node name="instance23" type="Sprite2D" parent="Background"]
+position = Vector2(33, -34)
+texture = ExtResource("atlas_texture_0")
+region_enabled = true
+region_rect = Rect2(0, 0, 1557, 669)
+
+[node name="instance24" type="Node2D" parent="Background"]
+position = Vector2(-342, 189)
+
+[node name="instance25" type="Sprite2D" parent="Background/instance24"]
+texture = ExtResource("atlas_texture_0")
+region_enabled = true
+region_rect = Rect2(695, 669, 936, 362)
+
+[node name="Bakunawa" type="Node2D" parent="."]
+z_index = 2
+position = Vector2(670, 331)
+rotation = 0.040180773
+scale = Vector2(1.31, 1.31)
+
+[node name="instance26" type="Sprite2D" parent="Bakunawa"]
+position = Vector2(0, 9)
+texture = ExtResource("atlas_texture_0")
+region_enabled = true
+region_rect = Rect2(0, 1031, 403, 520)
+
+[node name="Logo" type="Node2D" parent="."]
+z_index = 3
+position = Vector2(253, 131)
+scale = Vector2(0.72, 0.72)
+
+[node name="instance27" type="Sprite2D" parent="Logo"]
+position = Vector2(0, -6)
+texture = ExtResource("atlas_texture_0")
+region_enabled = true
+region_rect = Rect2(0, 669, 695, 322)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_f36qu")
+}
+autoplay = "Scene 1"

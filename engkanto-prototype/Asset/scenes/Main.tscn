@@ -1,15 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://sjqy8t7j7376"]
+[gd_scene load_steps=3 format=3 uid="uid://sjqy8t7j7376"]
 
-[ext_resource type="PackedScene" uid="uid://bauag0563pmmv" path="res://Asset/ui/MainMenu/MainMenu.tscn" id="1_dxv4o"]
 [ext_resource type="Script" uid="uid://bkbt4v21qwk1e" path="res://Asset/scenes/Main.cs" id="1_ooha7"]
-[ext_resource type="Script" uid="uid://riyrpxgch1y" path="res://Asset/scenes/Button.cs" id="3_385ij"]
+[ext_resource type="PackedScene" uid="uid://p2r5nn8cqlq7" path="res://Asset/ui/MainMenuV2/MainMenuV2.tscn" id="2_ooha7"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ooha7")
-
-[node name="MainMenu" parent="." instance=ExtResource("1_dxv4o")]
-position = Vector2(18, 0)
-scale = Vector2(2, 2)
 
 [node name="Button" type="Button" parent="."]
 offset_left = 142.0
@@ -17,4 +12,7 @@ offset_top = 475.0
 offset_right = 215.0
 offset_bottom = 506.0
 text = "Click Me"
-script = ExtResource("3_385ij")
+
+[node name="MainMenuV2" parent="." instance=ExtResource("2_ooha7")]
+position = Vector2(23.000004, 24)
+scale = Vector2(1.4, 1.4)

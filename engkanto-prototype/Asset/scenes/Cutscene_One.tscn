@@ -1,39 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://b7v0saw2r5uy"]
+[gd_scene load_steps=6 format=3 uid="uid://b7v0saw2r5uy"]
 
 [ext_resource type="PackedScene" uid="uid://873xuy8dbgw2" path="res://Asset/ui/Background_Cutscene/Background_Cutscene.tscn" id="1_gi1v1"]
 [ext_resource type="PackedScene" uid="uid://hh71rn0doe2g" path="res://Asset/characters/Grandma/Grandma.tscn" id="1_nul27"]
 [ext_resource type="PackedScene" uid="uid://ro4c5khl5g6x" path="res://Asset/characters/Raya_D_Idle/Raya_D_Idle.tscn" id="2_xtn4w"]
 [ext_resource type="PackedScene" uid="uid://wb7h5ck0l10w" path="res://Asset/ui/Dialogue_Box/Dialogue_Box.tscn" id="4_6ed8q"]
 [ext_resource type="AudioStream" uid="uid://d04f3rj0f6b4l" path="res://Asset/Audio/Abandoned-Dramatic-Melancholic-Music-chosic.com_.wav" id="5_6ed8q"]
-
-[sub_resource type="CSharpScript" id="CSharpScript_6ed8q"]
-script/source = "using Godot;
-using System;
-
-public partial class Button2 : Godot.Button
-{
-	public override void _Ready()
-	{
-		var button = new Button();
-		button.Text = \"Click Me\";
-		button.Pressed += () => {
-			GetTree().ChangeSceneToFile(\"res://Asset/scenes/Test_Area.tscn\");
-		};
-		AddChild(button);
-	}
-
-	public override void _Process(double delta)
-	{
-		
-	}
-
-	private new void ButtonPressed()
-	{
-		GetTree().ChangeSceneToFile(\"res://Asset/scenes/Cutscene_One.tscn\");
-	}
-	
-}
-"
 
 [node name="Node2D" type="Node2D"]
 
@@ -77,4 +48,3 @@ offset_top = 569.0
 offset_right = 583.0
 offset_bottom = 600.0
 text = "Click Me"
-script = SubResource("CSharpScript_6ed8q")
