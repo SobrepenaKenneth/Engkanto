@@ -1,39 +1,20 @@
-[gd_scene load_steps=4 format=3 uid="uid://bfhxuwhwwq0da"]
+[gd_scene load_steps=3 format=3 uid="uid://bfhxuwhwwq0da"]
 
+[ext_resource type="PackedScene" uid="uid://7yp4xp31a6p4" path="res://Asset/scenes/LunaWood/LunaWood/LunaWood.tscn" id="1_icy4a"]
 [ext_resource type="PackedScene" uid="uid://dn6gsfce65mvo" path="res://Asset/characters/Raya.tscn" id="1_oq6hm"]
-[ext_resource type="Texture2D" uid="uid://07fdbp7osyf0" path="res://icon.svg" id="2_icy4a"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_a3pfb"]
-size = Vector2(1420.5, 132)
 
 [node name="Node2D" type="Node2D"]
 
+[node name="LunaWood" parent="." instance=ExtResource("1_icy4a")]
+position = Vector2(433, 0)
+scale = Vector2(2, 2)
+
 [node name="Raya" parent="." instance=ExtResource("1_oq6hm")]
-position = Vector2(360, 335)
+z_index = 1
+z_as_relative = false
+position = Vector2(369, 602)
+scale = Vector2(0.2, 0.2)
 
-[node name="Floor" type="StaticBody2D" parent="."]
-position = Vector2(2, 0)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="Floor"]
-position = Vector2(631, 626)
-scale = Vector2(11.078125, 1)
-texture = ExtResource("2_icy4a")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
-position = Vector2(636.75, 627)
-shape = SubResource("RectangleShape2D_a3pfb")
-
-[node name="Floor2" type="StaticBody2D" parent="."]
-position = Vector2(848, 74)
-scale = Vector2(1, 0.47999984)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="Floor2"]
-position = Vector2(631, 626)
-scale = Vector2(11.078125, 1)
-texture = ExtResource("2_icy4a")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor2"]
-position = Vector2(636.75, 627)
-shape = SubResource("RectangleShape2D_a3pfb")
+[node name="Camera2D" type="Camera2D" parent="Raya"]
+offset = Vector2(0, -50)
+zoom = Vector2(2, 2)
